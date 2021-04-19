@@ -16,6 +16,9 @@ print(model_g.most_similar('together',topn=10))
 ('2gether', 0.5187329053878784), ('togethor', 0.501663088798523), ('gether', 0.49128714203834534), 
 ('toegther', 0.48457157611846924)]
 
+print(model_g.most_similar('sad',topn=10))
+[('saddening', 0.6763913631439209), ('depressing', 0.6676110029220581), ('saddened', 0.6352651715278625), ('sorrowful', 0.6336953043937683), ('heartbreaking', 0.6180269122123718), ('heartbroken', 0.6099187135696411), ('tragic', 0.6039361953735352), ('pathetic', 0.5848405361175537), ('Sad', 0.5826965570449829), ('mournful', 0.5742306709289551)]
+
 #find the outlier word
 print(model_g.doesnt_match(['fire', 'water', 'land', 'sea', 'air', 'car']))
 
