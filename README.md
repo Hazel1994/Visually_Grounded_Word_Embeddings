@@ -29,4 +29,4 @@ print(model_g.doesnt_match(['fire', 'water', 'land', 'sea', 'air', 'car']))
 car
 
 ```
-
+if you find our embeddings useful, please cite our paper. We have also another version of visually grounded embeddings which seems to perfom even better. Feel free to [check it out](https://github.com/Hazel1994/Visually_Grounded_Word_Embeddings_2) if youre interested in this line of research.
