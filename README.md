@@ -29,4 +29,23 @@ print(model_g.doesnt_match(['fire', 'water', 'land', 'sea', 'air', 'car']))
 car
 
 ```
-if you find our embeddings useful, please cite our paper. We have also another version of visually grounded embeddings which seems to perfom even better. Feel free to [check it out](https://github.com/Hazel1994/Visually_Grounded_Word_Embeddings_2) if youre interested in this line of research.
+## Citation
+if you find our embeddings useful, please cite our paper:
+```
+@inproceedings{shahmohammadi-etal-2021-learning,
+    title = "Learning Zero-Shot Multifaceted Visually Grounded Word Embeddings via Multi-Task Training",
+    author = "Shahmohammadi, Hassan  and
+      Lensch, Hendrik P. A.  and
+      Baayen, R. Harald",
+    booktitle = "Proceedings of the 25th Conference on Computational Natural Language Learning",
+    month = nov,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.conll-1.12",
+    doi = "10.18653/v1/2021.conll-1.12",
+    pages = "158--170"
+}
+```
+## Interested in visually grounded embeddings?
+We have also another version of visually grounded embeddings which seems to perform even better. Feel free to [check it out](https://github.com/Hazel1994/Visually_Grounded_Word_Embeddings_2)
