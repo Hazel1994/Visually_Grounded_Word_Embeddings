@@ -2,7 +2,8 @@
 This repository contains the embeddings for [Learning Zero-Shot Multifaceted Visually Grounded Word Embeddings via Multi-Task Training](https://aclanthology.org/2021.conll-1.12/) paper presented in **Proceedings of the 25th Conference on Computational Natural Language Learning**
 
 We have introduced new sets of visually grounded word embeddings based on textual embeddings and image-caption pairs.
-Our grounded embeddings show great zero-shot generalization performance across various NLP tasks such as [word similarity and related benchmarks](https://github.com/vecto-ai/word-benchmarks). Please check out our paper for numerical evaluation and analysis. 
+Our grounded embeddings show great zero-shot generalization performance across various NLP tasks such as [word similarity and related benchmarks](https://github.com/vecto-ai/word-benchmarks). In particular,
+our approach highly boosts the performance of abstract words in zero-shot settings. Please check out our paper for numerical evaluation and analysis. 
 
 ## How to use the pre-trained embeddings?
 
