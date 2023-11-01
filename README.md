@@ -37,6 +37,8 @@ print(model_g.doesnt_match(['fire', 'water', 'land', 'sea', 'air', 'car']))
 car
 
 ```
+## License
+MIT
 ## Citation
 if you find our embeddings useful, please cite our paper:
 ```
